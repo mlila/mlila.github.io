@@ -1,0 +1,23 @@
+@import 'vars';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+
+/* Bootstrap default style overrides */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.btn {
+  padding: 10px 11px;
+}
+
+.form-control {
+  border: none;
+  font-size: 14px;
+  height: auto;
+  padding: 12px 16px;
+}
